@@ -1,0 +1,8 @@
+
+
+
+Porcento: 100*(([Val_Parc]-([Val_Parc]-[totalRecebido]))/[Val_Parc])
+
+
+CalcImposto: (([ValorVenda]-([ValorVenda]-[Imposto]))/[ValorCompra])----->Para campos com formatação de porcentagem
+CalcImposto: 100*(([ValorVenda]-([ValorVenda]-[Imposto]))/[ValorCompra])---->Para campos sem formatação de porcentagem

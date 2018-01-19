@@ -1,0 +1,4 @@
+﻿Anta Gorda;6000;350
+Arvorezinha;8000;480
+Ilopolis;4500;2300
+Encantado;12000;1200

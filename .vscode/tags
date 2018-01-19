@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+La√ßo de reti√ß√£o(aula9).py	../La√ßo de reti√ß√£o(aula9).py	1;"	kind:file	line:1
+Trabalhando com listas(aula 8).py	../Trabalhando com listas(aula 8).py	1;"	kind:file	line:1
+a	../aula 4.py	/^a = input('Valor A: ')$/;"	kind:variable	line:1
+a	../condicao Else(aula 10).py	/^a = int(input('Informe o valor 1: '))$/;"	kind:variable	line:1
+apelido	../hello.py	/^apelido = input("Qual È o seu apelido?: ")$/;"	kind:variable	line:3
+aula 4.py	../aula 4.py	1;"	kind:file	line:1
+b	../aula 4.py	/^b = input('Valor B: ')$/;"	kind:variable	line:2
+b	../condicao Else(aula 10).py	/^b = int(input('Informe o valor 2: '))$/;"	kind:variable	line:2
+condicao Else(aula 10).py	../condicao Else(aula 10).py	1;"	kind:file	line:1
+endereco	../hello.py	/^endereco = input("Qual È o seu endereco?: ")$/;"	kind:variable	line:6
+hello.py	../hello.py	1;"	kind:file	line:1
+idade	../hello.py	/^idade = input("Qual È o sua idade?: ")$/;"	kind:variable	line:5
+module1.py	../module1.py	1;"	kind:file	line:1
+nome	../La√ßo de reti√ß√£o(aula9).py	/^nome = 'python'$/;"	kind:variable	line:1
+nome	../hello.py	/^nome = input("Qual È o seu nome?: ")$/;"	kind:variable	line:2
+operacao	../module1.py	/^operacao= int(input())$/;"	kind:variable	line:20
+resultado	../module1.py	/^    resultado = valor1 * valor2$/;"	kind:variable	line:28
+resultado	../module1.py	/^    resultado = valor1 + valor2$/;"	kind:variable	line:24
+resultado	../module1.py	/^    resultado = valor1 - valor2$/;"	kind:variable	line:36
+resultado	../module1.py	/^    resultado = valor1 \/ valor2$/;"	kind:variable	line:32
+t	../aula 4.py	/^t = int(a) + int(b)$/;"	kind:variable	line:3
+telefone	../hello.py	/^telefone = input("Qual È o seu telefone?: ")$/;"	kind:variable	line:4
+valor1	../module1.py	/^valor1 = int(input())$/;"	kind:variable	line:14
+valor2	../module1.py	/^valor2= int(input())$/;"	kind:variable	line:17

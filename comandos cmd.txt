@@ -1,0 +1,117 @@
+1- Adicionar/Remover Programas: appwiz.cpl
+2- Ferramentas Administrativas: control admintools
+3- Atualizações Automáticas: wuaucpl.cpl
+4- Assistente para Transferência de Arquivos Bluetooth: fsquirt
+5- Compartilhamentos DDE: ddeshare
+6- Gestor de Dispositivos: devmgmt.msc
+7- Painel de Controlo do Direct X (se estiver instalado): directx.cpl
+8- Ferramenta de Diagnóstico do Direct X: dxdiag
+9- Limpeza de Disco: cleanmgr
+10- Verificação de Assinatura de Arquivo: sigverif
+11- Findfast: findfast.cpl
+12- Opções de Pasta: control folders
+13- Fontes: control fonts
+14- Pasta Fontes: fonts
+15- Conexões de Rede: control netconnections
+16- Conexões de Rede: ncpa.cpl
+17- Assistente para Configuração de Rede: netsetup.cpl
+18- Propriedades de Internet: inetcpl.cpl
+19- Configuração do IP (Exibe informações completas da Configuração da Conexão): ipconfig /all
+20- Configuração do IP (Exibe o conteúdo da Cache DNS Resolver): ipconfig /displaydns
+21- Configuração do IP (Depura a Cache DNS Resolver): ipconfig /flushdns
+22- Configuração do IP (Libera o endereço IP para o adaptador especificado): ipconfig /release
+23- Configuração do IP (Renova o endereço IP para o adaptador especificado): ipconfig /renew
+24- Configuração do IP (Atualiza todas as concessões DHCP e registra novamente nomes DNS): ipconfig /registerdns
+25- Configuração do IP (Exibe todas as identificações de classe DHCP permitidas para o adaptador): ipconfig /showclassid
+26- Configuração do IP (Modifica a identificação de classe DHCP): ipconfig /setclassid
+27- Usuários e Grupos Locais: lusrmgr.msc
+28- Logoff do Windows: logoff
+29- Bate-Papo: winchat
+30- Propriedades do mouse: control mouse
+31- Propriedades de Rato: main.cpl
+32- Impressoras e Aparelhos de Fax: control printers
+33- Pasta Impressoras: printers
+34- Editor de Caracteres Particulares: eudcedit
+35- Editor do Registro: regedit
+36- Editor do Registro: regedit32
+37- Conexão de Área de Trabalho Remota: mstsc
+38- Armazenamento Removível: ntmsmgr.msc
+39- Tarefas Agendadas: control schedtasks
+40- Central de Segurança do Windows: wscui.cpl
+41- Serviços: services.msc
+42- Pastas Compartilhadas: fsmgmt.msc
+43- Propriedades de Som e Dispositivos de Áudio: mmsys.cpl
+44- Utilitário de Rede para Clientes do SQL Server: cliconfg
+45- Editor de Configuração do Sistema: sysedit
+46- Utilitário de Configuração do Sistema: msconfig
+47- Propriedades do Sistema: sysdm.cpl
+48- Gestor de Tarefas: taskmgr
+49- Cliente de Telnet: telnet
+50- Desligar o Windows: shutdown
+51- System File Checker (Pesquisa imediatamente todos os APS): sfc /scannow
+52- System File Checker (Pesquisa imediatamente todos os APS a cada inicialização): sfc /scanboot
+53- Gestor de Utilitários: utilman
+54- Firewall do Windows: firewall.cpl
+55- System File Checker (Restaura a pesquisa à configuração padrão): sfc /revert
+56- Lente de Aumento: magnify
+57- Janela das Ligações de Rede: ncpa.cpl
+58- Windows Management Infrastructure: wmimgmt.msc
+59- Gestor de Disco: diskmgmt.msc
+60- Gestor de Partição: diskpart
+61- Propriedades de Vídeo: control desktop
+62- Propriedades de Vídeo: desk.cpl
+63- Propriedades de Vídeo (com a aba Aparência já seleccionada): control color
+64- Dr. Watson: drwtsn32
+65- Gestor de Verificação de controladores: verifier
+66- Visualizador de Eventos: eventvwr.msc
+67- Opções de Acessibilidade: verifier
+68- Assistente para Adicionar Hardware: hdwwiz.cpl
+69- Certificados: certmgr.msc
+70- Mapa de Caracteres: charmap
+71- Visualizador da Área de Transferência: clipbrd
+72- Linha de Comando: cmd
+73- Serviços de Componentes: dcomcnfg
+74- Propriedades de Teclado: control keyboard
+75- Configurações Locais de Segurança: secpol.msc
+76- Gestor de Objectos - Pacote: packager
+77- Administrador de Fonte de Dados ODBC: odbccp32.cpl
+78- Opções de Telefone e Modem: telephon.cpl
+79- Propriedades de Opções de Energia: powercfg.cpl
+80- Solicitações do Operador de Armazenamento Removível: ntmsoprq.msc
+81- Conjunto de Directivas Resultantes (XP Prof): rsop.msc
+82- Scanners e Câmeras: sticpl.cpl
+83- Serviços de Componentes: comexp.msc
+84- System File Checker (Limpa o cache do arquivo): sfc /purgecache
+85- Definições locais de segurança: secpol.msc
+86- Performance Monitor: perfmon.msc
+87- Resultant Set of Policies: rsop.msc
+88- Serviços: services.msc
+89- Contas de Usuário: control userpasswords2
+90- Gestor de Usuários do Wint Server (somente windows2003 server): usrmgr
+91- Instalador do Active Directory (somente Windows server): dcpromo
+92- Gestor de Tarefas: taskmgr
+93- Pastas Partilhadas: fsmgmt.msc
+94- Politicas de Grupo: gpedit.msc
+95- Utilizadores Locais e Grupos: lusrmgr.msc
+96- Desfragmentador de Disco: dfrg.msc
+97- Visualizador de Eventos: eventvwr.msc
+98- Protegendo Banco de Dados de Contas do Windows XP: syskey
+99- Conectar-se ao Site do Windows Update: wupdmgr
+100- Introdução ao Windows XP: tourstart
+101- Gestão do Computador: compmgmt.msc
+102- Gestão de Discos: diskmgmt.msc
+103- System File Checker (Define o tamanho de cache): sfc /cachesize=x
+104- Gestor de Dispositivos: devmgmt.msc
+105- Password Properties: password.cpl
+106- Desempenho: perfmon.msc
+107- Desempenho: perfmon
+108- Opções Regionais e de Idioma: intl.cpl
+109- Contas de Usuário: nusrmgr.cpl
+110- Controladores de Jogo: joy.cpl
+111- Group Policy Editor (XP Prof): gpedit.msc
+112- Iexpress Wizard: iexpress
+113- Serviço de Indexação: ciadv.msc
+114- Check Disk: chkdsk
+115- Gestor do Computador: compmgmt.msc
+116- Propriedades de Data e Hora: timedate.cpl
+117- Desfragmentador de Disco: dfrg.msc

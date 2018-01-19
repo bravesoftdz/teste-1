@@ -1,0 +1,25 @@
+//<<<<-----TIPO DE VARIAVEIS----->>>>
+//int, long, short, byte
+//float , double
+//char
+//boolean
+//String
+
+//<<<<------DO MENOR PARA O MAIOR------->>>>
+//byte short int long
+
+//float, double
+
+//char 'v' 'f' 'g' //Sempre entre aspas simples
+
+//boolean true ou false
+
+//<<<<-----CONSTANTES----->>>>
+//DECLARACAO
+
+//final double TAXA = 3.14;
+
+//<<<<-----OPERADORES CONDICIONAIS----->>>>
+//not = !
+//ou = ||
+//e =  &&
