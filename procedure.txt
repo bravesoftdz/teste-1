@@ -1,0 +1,58 @@
+selectprocedure Tfrmnotafiscal_menu.lancaCaixaVendaVista(codNota: string);
+begin
+  //proximoCodigo = 0;
+  frmModulo.qrAux.Close;
+  frmModulo.qrAux.Sql.Clear;
+  frmModulo.qrAux.Sql.Add('select FAT_TIPO from c000061 where codigo = ' + codNota);
+  frmModulo.qrAux.Open;
+
+  if  (frmModulo.qrAux.FieldByName('FAT_TIPO').AsString = '0') Then
+    begin
+      frmModulo.qrAux.Close;
+      frmModulo.qrAux.Sql.Clear;
+      frmModulo.qrAux.Sql.Add('INSERT INTO C000044(CODIGO = :pCodigo, CODOPERADOR = :pCodOperador)');
+      //frmModulo.qrAux.Sql.Add('DATA = : pData, SAIDA = :pSaida, ENTRADA = :pEntrada, CODCONTA =:pCodConta,');
+      //frmModulo.qrAux.Sql.Add('HISTORICO = : pHistorico, MOVIMENTO =:pMovimento, VALOR =:pValor, CODNFSAIDA =:pCodNFSaida'));
+      //frmModulo.qrAux.Sql.Add('VALUES');
+      frmModulo.qrAux.Open;
+
+      qryVendasVista.Close;
+      qryVendasVista.SQL.Clear;
+      qryVendasVista.SQL.ADD('SELECT MAX(CODIGO) FROM C000044');
+      qryVendasVista.Open;
+
+      qryVendasVista.Insert;
+      qryVendasVista.FieldByName('pCodigo').AsString := frmprincipal.codifica('000044');
+      qryVendasVista.fieldbyname('pCodOperador').asstring := frmmodulo.qrcaixa_operador.fieldbyname('codigo').asstring;
+      //qryVendasVista.fieldbyname('codcaixa').asstring := frmmodulo.qrcaixa_operador.fieldbyname('codigo').asstring;
+     // qryVendasVista.FieldByName('data').asdatetime := frmmodulo.qrcaixa_operador.fieldbyname('data').asdatetime;
+
+
+     query2.close;
+              query2.SQL.clear;
+              query2.sql.add('insert into c000049');
+              query2.sql.add('(codigo,codvenda,codcliente,codregiao,codvendedor,codcaixa,');
+              query2.sql.add(' data_emissao, data_vencimento,valor_original, valor_pago, valor_atual,');
+              query2.sql.Add(' documento, tipo, situacao, filtro');
+
+
+
+              query2.sql.add('values');
+              query2.sql.add('(:codigo,:codvenda,:codcliente,:codregiao,:codvendedor,:codcaixa,');
+              query2.sql.add(' :data_emissao, :data_vencimento,:valor_original, :valor_pago, :valor_atual,');
+              query2.sql.Add(' :documento, :tipo, :situacao, :filtro');
+
+
+
+
+    //  frmModulo.qrAux.params.Parambyname('pCodigo').AsInteger  := ;
+
+    //frmnotafiscal_menu.qrnota.fieldbyname('DESCONTO_ITEM').AsFloat        := 0;
+
+
+
+    end;
+
+       // showmessage(inttostr(proximoCodigo));
+
+end;
